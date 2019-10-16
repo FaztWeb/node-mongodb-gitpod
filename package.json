@@ -1,0 +1,28 @@
+{
+  "name": "node-mongodb-gitpod",
+  "version": "1.0.0",
+  "description": "editado",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FaztTech/node-mongodb-gitpod.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FaztTech/node-mongodb-gitpod/issues"
+  },
+  "homepage": "https://github.com/FaztTech/node-mongodb-gitpod#readme",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}

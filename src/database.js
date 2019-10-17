@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://fazt:fazt@cluster0-phlw8.mongodb.net/test?retryWrites=true&w=majority', {
+mongoose.connect('YOUR_MONGO_URI_GOES_HERE', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
